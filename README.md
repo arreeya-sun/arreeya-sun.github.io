@@ -1,16 +1,9 @@
-# portfolio_app
+# Portfolio App
 
-A new Flutter project.
+A personal portfolio website built with Flutter Web, showcasing my bio, skills, projects, and work experience as a mobile developer.
 
-## Getting Started
+**Live site:** [arreeya-sun.github.io](https://arreeya-sun.github.io)
 
-This project is a starting point for a Flutter application.
+## Deployment
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The site is automatically built and deployed to GitHub Pages on every push to `main`.
