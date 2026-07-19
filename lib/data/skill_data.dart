@@ -1,0 +1,15 @@
+const List<String> skills = [
+  'Flutter',
+  'Dart',
+  'Clean Architecture',
+  'MVC',
+  'Provider',
+  'GetX',
+  'Cubit',
+  'Firebase',
+  'Sendbird',
+  'REST API',
+  'Secure Storage',
+  'Git',
+  'Figma',
+];
