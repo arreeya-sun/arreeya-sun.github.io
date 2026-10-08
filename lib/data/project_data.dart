@@ -3,6 +3,38 @@ import 'package:portfolio_app/models/project.dart';
 
 final List<Project> projects = [
   Project(
+    title: 'Thaimart',
+    provider: 'Thaimart Marketplace Company Limited',
+    category: 'Shopping',
+    platform: 'iOS · Android',
+    description:
+        'Thaimart. A marketplace app for Thai entrepreneurs and shoppers, with verified stores, a wide range of product categories, and a clear return and refund system.',
+    techStack: [
+      'Flutter',
+      'gRPC',
+      'Clean Architecture',
+      'Atomic Design',
+      'Cubit',
+      'Firebase Crashlytics',
+      'Firebase Remote Config',
+    ],
+    features: [
+      'Built the chat feature for both the Thaimart and Thaimart Seller apps in 10 days, covering messaging, images, blocking, chat deletion, and resend',
+      'Extended chat with product sharing, multi-image messages, admin chat, and video messages',
+      'Worked across 3 squads at once, shipping store deletion, document requests, image search, and more using trunk-based development with feature flags',
+    ],
+    iconAsset: Assets.icons.logoThm,
+    screenshots: [
+      Assets.images.thmHome,
+      Assets.images.thmProduct,
+      Assets.images.thmChat,
+    ],
+    appStoreUrl:
+        'https://apps.apple.com/th/app/thaimart-marketplace/id6767475856',
+    playStoreUrl:
+        'https://play.google.com/store/apps/details?id=com.sevensolutions.thaimart&hl=en',
+  ),
+  Project(
     title: 'RizzUp Dating App',
     provider: 'Dating App Company Limited',
     category: 'Lifestyle',

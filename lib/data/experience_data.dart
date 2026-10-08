@@ -7,12 +7,13 @@ const List<Experience> experiences = [
     employmentType: 'Full-time',
     location: 'Bangkok',
     periodLabel: 'Aug 2024 - Present',
-    duration: '2 yrs',
+    duration: '2 yrs 3 mos',
     summary:
-        'Built and maintained the RizzUp app using Flutter and Clean Architecture, starting with GetX and later adopting Cubit for state management, working in Scrum sprints.',
+        'Built and maintained Flutter apps using Clean Architecture, working closely with QA, PO, and backend teams in Scrum sprints, from RizzUp to the Thaimart marketplace.',
     details: [
-      'Developed most of the app\'s core features, handling both UI and API integration',
-      'Sole mobile developer for 5 months, owning the full release process, from build to deployment and app store submissions',
+      'Developed most of RizzUp\'s core features, handling both UI and API integration, and migrated state management from GetX to Cubit',
+      'Sole mobile developer on RizzUp for 5 months, owning the mobile side end to end from development to production release',
+      'Built the chat feature for Thaimart\'s buyer and seller apps and worked across 3 squads at the same time',
     ],
   ),
   Experience(

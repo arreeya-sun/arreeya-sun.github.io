@@ -30,12 +30,17 @@ class $AssetsIconsGen {
   AssetGenImage get logoRizzUp =>
       const AssetGenImage('assets/icons/logo_rizz_up.webp');
 
+  /// File path: assets/icons/logo_thm.webp
+  AssetGenImage get logoThm =>
+      const AssetGenImage('assets/icons/logo_thm.webp');
+
   /// List of all assets
   List<AssetGenImage> get values => [
     logoIThesis,
     logoKuGradLife,
     logoLpg,
     logoRizzUp,
+    logoThm,
   ];
 }
 
@@ -91,6 +96,18 @@ class $AssetsImagesGen {
   AssetGenImage get rizzupEvent =>
       const AssetGenImage('assets/images/rizzup_event.png');
 
+  /// File path: assets/images/thm_chat.png
+  AssetGenImage get thmChat =>
+      const AssetGenImage('assets/images/thm_chat.png');
+
+  /// File path: assets/images/thm_home.png
+  AssetGenImage get thmHome =>
+      const AssetGenImage('assets/images/thm_home.png');
+
+  /// File path: assets/images/thm_product.png
+  AssetGenImage get thmProduct =>
+      const AssetGenImage('assets/images/thm_product.png');
+
   /// List of all assets
   List<AssetGenImage> get values => [
     ithesisChat,
@@ -106,6 +123,9 @@ class $AssetsImagesGen {
     rizzupCatalog,
     rizzupChat,
     rizzupEvent,
+    thmChat,
+    thmHome,
+    thmProduct,
   ];
 }
 

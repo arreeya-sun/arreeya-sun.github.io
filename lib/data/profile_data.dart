@@ -5,7 +5,7 @@ const profile = Profile(
   initials: 'AS',
   name: 'Arreeya Sungthong',
   bio:
-      'Mobile Developer with 3 years of Flutter experience, having shipped and maintained 4 production apps on the App Store and Play Store. Focused on clean, maintainable code and adapting to different architectures across projects. Works well as part of a team, and independently, including owning full release cycles solo when needed.',
+      'Mobile Developer with 3 years of Flutter experience, having shipped and maintained 7 production apps on the App Store and Play Store. Writes clean, maintainable code and adapts quickly to different architectures and codebases. Comfortable working across multiple squads or owning releases solo when needed.',
   email: 'arreeya.sun@gmail.com',
   roles: ['Mobile Developer', 'Flutter Developer'],
   contacts: [
